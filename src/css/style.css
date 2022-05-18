@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    /* background: linear-gradient(45deg, #8e2de2, #4a00e0) !important;
+    background-repeat: no-repeat !important; */
+    background-color: #1A1A1A;
+    color: #FFF !important;
+    margin-top: 20px !important;
+    text-align: center !important;
+    min-height: 100vh !important;
+    /* min-width: 100vw !important; */
+}
+
+img {
+    max-width: 130px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #FFF;
+    border-radius: 50%;
+}
+
+main .title {
+    font-size: 45px;
+}
+
+main .subtitle {
+    font-size: 20px;
+}
+
+/* Icons */
+main .icons {
+    font-size: 28px;
+    margin-right: 0%; 
+    cursor: pointer;
+}
+
+main .icon {
+    color: #FFF;
+}
+main #spotify:hover{
+    color: #1CCC5B;
+}
+main #insta:hover {
+    color: #C90061;
+}
+main #tele:hover {
+    color: #36AEE2;
+}
+main #whats:hover {
+    color: #33D150;
+}
+
+
+/* Buttons */
+main button {
+    /* background-color: #000; */
+    background: linear-gradient(45deg, #8e2de2, #4a00e0);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    position: relative;
+    color: #fff;
+    height: 70px;
+    width: 350px;
+    font-size: 19px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+main .box {
+    box-sizing: border-box;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    /* width: calc((100% / 3) - 2rem); calco para descontar a margem da largura do box se aumenta a marge tem que ajustar aqui tb */
+}   
+
+
+
+
+
+
